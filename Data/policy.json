@@ -1,82 +1,894 @@
-{
-  "Cancel Trip": [
-    "Tickets purchased directly from Singapore Airlines can be canceled online.",
-    "Refunds depend on fare type (refundable fares get full/partial refund; non-refundable only taxes refunded).",
-    "Tickets for flights to/from USA can be canceled penalty-free within 24 hours if booked 7 days prior.",
-    "Cancellation fees and deadlines apply as per fare terms."
-  ],
-  "Cancellation Policy": [
-    "Fare types like Lite do not allow cancellations (only taxes refunded).",
-    "Other fares are cancellable with fees.",
-    "Full refunds are given if SIA cancels the flight or significant schedule changes occur.",
-    "Travel insurance may cover other reasons for cancellation."
-  ],
-  "Carry On Luggage FAQ": [
-    "Economy/Premium Economy: 1 carry-on bag, max 7 kg, dimensions up to 115 cm total (L+W+H).",
-    "Business/First/Suites: 2 carry-on bags, combined max weight 14 kg, each up to 115 cm total dimensions.",
-    "One personal item allowed separately (e.g. handbag, laptop)."
-  ],
-  "Change Flight": [
-    "Flight changes allowed subject to fare conditions and fees.",
-    "Flexibility varies by fare type and route.",
-    "Refunds may be partially available depending on fare rules."
-  ],
-  "Check In Luggage FAQ": [
-    "Baggage allowance depends on class and destination:",
-    "Suites/First: 50 kg total check-in baggage.",
-    "Business: 40 kg.",
-    "Premium Economy: 35 kg.",
-    "Economy Flexi/Standard/Lite: 35/30/30 kg respectively.",
-    "Max bag dimension sum 158 cm.",
-    "Extra charges apply above allowance."
-  ],
-  "Complaints": [
-    "Complaints can be made online or via hotline for issues like delays, cancellations, baggage mishandling.",
-    "Compensation possible for eligible claims under route-specific regulations.",
-    "Keep all documentation for complaint processing."
-  ],
-  "Damaged Bag": [
-    "Report damage immediately at airport or within 7 days online if last flight operated by SIA.",
-    "Liability limited by Conditions of Carriage and international conventions.",
-    "No liability for normal wear and tear."
-  ],
-  "Discounts": [
-    "Limited promotions such as tax-free prices or KrisFlyer mile discounts apply periodically.",
-    "Promo codes usually apply only on SIA website with conditions."
-  ],
-  "Fare Check": [
-    "Fare rules specify refund and change conditions, vary by fare type (e.g. Lite, Value, Standard, Flexi).",
-    "Fare details are available at booking."
-  ],
-  "Flight Status": [
-    "Flight status updates available online via SingaporeAir website or app."
-  ],
-  "Flights Info": [
-    "Comprehensive flight info, schedule changes, and cancellations are handled per policy on official site."
-  ],
-  "Insurance": [
-    "Travel insurance recommendations provided to cover cancellations and lost baggage.",
-    "Some credit cards offer automatic travel insurance."
-  ],
-  "Medical Policy": [
-    "Flight changes or cancellations possible for medical emergencies with supporting documents.",
-    "Priority assistance for last-minute changes due to medical reasons."
-  ],
-  "Missing Bag": [
-    "Report missing bags online or at airport Lost & Found within 7 days.",
-    "Reference number provided to track claim status."
-  ],
-  "Pet Travel": [
-    "Pet travel policies exist but details vary; generally require advance notice and compliance with regulations."
-  ],
-  "Prohibited Items FAQ": [
-    "Standard airline prohibitions apply on dangerous goods, sharp objects, flammable materials, etc."
-  ],
-  "Seat Availability": [
-    "Seat selection and availability depend on fare type and booking class."
-  ],
-  "Sports Music Gear": [
-    "Transport of sports and music equipment allowed with advance notice; may incur extra fees."
-  ]
-}
-
+[
+  {
+    "text": "I want to cancel my flight for tomorrow",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "Can I cancel my booking and get a refund?",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "Please help me cancel my ticket",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "I need to cancel my upcoming trip",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "How do I cancel my reservation?",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "I want to cancel AI123 flight",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "Cancel my booking H7K9",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "I need to cancel my flight and rebook later",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "Help me cancel my ticket immediately",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "I would like to cancel my flight",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "What is your cancellation policy?",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Tell me the fees for cancelling a ticket",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "How much do I get refunded if I cancel?",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Explain the cancellation charges",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "What are the rules for ticket cancellation?",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Can I cancel without fees?",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Refund rules for cancelled flights?",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Is there a 24-hour cancellation policy?",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "How does your airline handle cancellations?",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Tell me about your cancellation terms",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "What are the carry-on luggage rules?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "Can I bring a backpack and a laptop?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "How many bags can I carry on board?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "Explain the hand luggage policy",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "Weight limits for carry-on?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "What is allowed in carry-on?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "Can I bring liquids in my carry-on?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "Carry-on baggage size restrictions?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "Are laptops allowed in cabin?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "Hand luggage FAQs?",
+    "label": "Carry On Luggage Faq"
+  },
+  {
+    "text": "I need to change my flight date",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Can I reschedule my ticket?",
+    "label": "Change Flight"
+  },
+  {
+    "text": "I want to switch my flight to another day",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Change flight AI123 to tomorrow",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Modify my booking H7K9",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Help me change my flight",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Is it possible to change my departure time?",
+    "label": "Change Flight"
+  },
+  {
+    "text": "I need to rebook my flight",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Flight change request",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Can I move my ticket to another flight?",
+    "label": "Change Flight"
+  },
+  {
+    "text": "What are the check-in baggage rules?",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "How much luggage can I check in?",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "Check-in baggage allowance?",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "Explain the checked baggage limits",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "Weight restrictions for checked bags?",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "Can I check in extra luggage?",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "Fees for checked baggage?",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "How many bags can I check?",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "Checked baggage policy",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "Rules for check-in luggage",
+    "label": "Check In Luggage Faq"
+  },
+  {
+    "text": "I want to file a complaint",
+    "label": "Complaints"
+  },
+  {
+    "text": "I have an issue with your service",
+    "label": "Complaints"
+  },
+  {
+    "text": "Customer service complaint",
+    "label": "Complaints"
+  },
+  {
+    "text": "My flight experience was bad",
+    "label": "Complaints"
+  },
+  {
+    "text": "I want to report a problem",
+    "label": "Complaints"
+  },
+  {
+    "text": "Complaint regarding lost baggage",
+    "label": "Complaints"
+  },
+  {
+    "text": "I am not happy with your service",
+    "label": "Complaints"
+  },
+  {
+    "text": "I want to escalate a complaint",
+    "label": "Complaints"
+  },
+  {
+    "text": "Report a flight issue",
+    "label": "Complaints"
+  },
+  {
+    "text": "File a service complaint",
+    "label": "Complaints"
+  },
+  {
+    "text": "My bag was damaged during the flight",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "Baggage arrived broken",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "How do I report a damaged bag?",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "My suitcase is damaged",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "I need to claim for broken luggage",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "Who handles damaged baggage?",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "My bag strap is broken",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "Claim for luggage damage",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "Damage report for checked baggage",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "Luggage got damaged in transit",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "Are there any discounts available?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Do you offer student discounts?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Promo codes for flights?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Special offers on tickets?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Seasonal discounts?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Corporate fare discounts?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Discount on group bookings?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Any loyalty program benefits?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Discount for frequent flyers?",
+    "label": "Discounts"
+  },
+  {
+    "text": "Offers on business class tickets?",
+    "label": "Discounts"
+  },
+  {
+    "text": "How much does flight AI123 cost?",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Check the fare for Delhi to Mumbai",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Ticket price for economy class",
+    "label": "Fare Check"
+  },
+  {
+    "text": "How much is a one-way ticket?",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Price for flight H7K9",
+    "label": "Fare Check"
+  },
+  {
+    "text": "What is the fare for tomorrowâ€™s flight?",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Cost of premium economy seat?",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Fare details for next week flight",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Check ticket cost from DEL to BLR",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Economy class ticket price?",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Is flight AI123 on time?",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Check status of my flight",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Will my flight be delayed?",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Flight arrival time update",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Departure status for H7K9",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Track flight AI123",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Current status of my booking",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Flight ETA?",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Is my flight departing on time?",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Flight schedule update",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Tell me about available flights from DEL to BLR",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Flight options tomorrow morning",
+    "label": "Flights Info"
+  },
+  {
+    "text": "How many flights are there today?",
+    "label": "Flights Info"
+  },
+  {
+    "text": "List all flights from Mumbai to Delhi",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Available flights this weekend?",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Flight schedule for next week",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Show me flight options",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Which flights operate today?",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Flight availability from BLR to DEL",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Next flights from Delhi",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Do you have travel insurance?",
+    "label": "Insurance"
+  },
+  {
+    "text": "Tell me about flight insurance",
+    "label": "Insurance"
+  },
+  {
+    "text": "Is insurance included in the ticket?",
+    "label": "Insurance"
+  },
+  {
+    "text": "Travel insurance coverage?",
+    "label": "Insurance"
+  },
+  {
+    "text": "How do I claim insurance?",
+    "label": "Insurance"
+  },
+  {
+    "text": "Insurance for lost luggage?",
+    "label": "Insurance"
+  },
+  {
+    "text": "Optional flight insurance?",
+    "label": "Insurance"
+  },
+  {
+    "text": "Insurance policy details",
+    "label": "Insurance"
+  },
+  {
+    "text": "Do you provide insurance for cancellations?",
+    "label": "Insurance"
+  },
+  {
+    "text": "Flight protection plan?",
+    "label": "Insurance"
+  },
+  {
+    "text": "Can I travel with a medical condition?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "What is your medical policy?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Any rules for sick passengers?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Do I need a doctorâ€™s certificate?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Traveling while pregnant?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Medical requirements for boarding?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Can I fly with asthma?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Policy for passengers needing assistance?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Do you have medical clearance rules?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Passengers with health issues guidelines?",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "My bag did not arrive",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Report lost luggage",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Where is my suitcase?",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Lost baggage claim",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "I canâ€™t find my bag after landing",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Missing checked-in bag",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Help me find my luggage",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "File missing baggage report",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "My baggage didnâ€™t arrive",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Checked bag lost",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Can I bring my pet on the plane?",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Pet travel rules?",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Transporting animals onboard",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "How do I fly with my dog?",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Pet carrier requirements?",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Flying with cats and dogs",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Pet travel booking",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Rules for pets in cabin",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Pet travel fees?",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Can I book a flight for my rabbit?",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Which items are prohibited on flights?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "List of banned items",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "What cannot be carried on board?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "Forbidden items in baggage?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "Dangerous goods policy?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "Prohibited liquids and aerosols?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "Items not allowed in checked baggage?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "Flight safety restricted items?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "Hazardous items regulations?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "What items are banned by airline?",
+    "label": "Prohibited Items Faq"
+  },
+  {
+    "text": "Is there a window seat available?",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Check seat availability for flight AI123",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Are there any seats left in economy class?",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Available seats for tomorrow flight?",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Can I get an aisle seat?",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Check seating options",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Are premium seats available?",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Seat map for my flight?",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Which seats can I book?",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Seat availability update",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Can I bring sports gear onboard?",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Transporting musical instruments?",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Flying with a guitar",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Rules for skis and snowboards?",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Sports equipment check-in",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Carry-on musical instruments",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "How to fly with sports gear?",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Booking for musical instruments?",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Fees for sports equipment?",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Can I bring a cello onboard?",
+    "label": "Sports Music Gear"
+  },
+  {
+    "text": "Tickets purchased directly from Singapore Airlines can be canceled online.",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "Refunds depend on fare type (refundable fares get full/partial refund; non-refundable only taxes refunded).",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "Tickets for flights to/from USA can be canceled penalty-free within 24 hours if booked 7 days prior.",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "Cancellation fees and deadlines apply as per fare terms.",
+    "label": "Cancel Trip"
+  },
+  {
+    "text": "Fare types like Lite do not allow cancellations (only taxes refunded).",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Other fares are cancellable with fees.",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Full refunds are given if SIA cancels the flight or significant schedule changes occur.",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Travel insurance may cover other reasons for cancellation.",
+    "label": "Cancellation Policy"
+  },
+  {
+    "text": "Economy/Premium Economy: 1 carry-on bag, max 7 kg, dimensions up to 115 cm total (L+W+H).",
+    "label": "Carry On Luggage FAQ"
+  },
+  {
+    "text": "Business/First/Suites: 2 carry-on bags, combined max weight 14 kg, each up to 115 cm total dimensions.",
+    "label": "Carry On Luggage FAQ"
+  },
+  {
+    "text": "One personal item allowed separately (e.g. handbag, laptop).",
+    "label": "Carry On Luggage FAQ"
+  },
+  {
+    "text": "Flight changes allowed subject to fare conditions and fees.",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Flexibility varies by fare type and route.",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Refunds may be partially available depending on fare rules.",
+    "label": "Change Flight"
+  },
+  {
+    "text": "Baggage allowance depends on class and destination:",
+    "label": "Check In Luggage FAQ"
+  },
+  {
+    "text": "Suites/First: 50 kg total check-in baggage.",
+    "label": "Check In Luggage FAQ"
+  },
+  {
+    "text": "Business: 40 kg.",
+    "label": "Check In Luggage FAQ"
+  },
+  {
+    "text": "Premium Economy: 35 kg.",
+    "label": "Check In Luggage FAQ"
+  },
+  {
+    "text": "Economy Flexi/Standard/Lite: 35/30/30 kg respectively.",
+    "label": "Check In Luggage FAQ"
+  },
+  {
+    "text": "Max bag dimension sum 158 cm.",
+    "label": "Check In Luggage FAQ"
+  },
+  {
+    "text": "Extra charges apply above allowance.",
+    "label": "Check In Luggage FAQ"
+  },
+  {
+    "text": "Complaints can be made online or via hotline for issues like delays, cancellations, baggage mishandling.",
+    "label": "Complaints"
+  },
+  {
+    "text": "Compensation possible for eligible claims under route-specific regulations.",
+    "label": "Complaints"
+  },
+  {
+    "text": "Keep all documentation for complaint processing.",
+    "label": "Complaints"
+  },
+  {
+    "text": "Report damage immediately at airport or within 7 days online if last flight operated by SIA.",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "Liability limited by Conditions of Carriage and international conventions.",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "No liability for normal wear and tear.",
+    "label": "Damaged Bag"
+  },
+  {
+    "text": "Limited promotions such as tax-free prices or KrisFlyer mile discounts apply periodically.",
+    "label": "Discounts"
+  },
+  {
+    "text": "Promo codes usually apply only on SIA website with conditions.",
+    "label": "Discounts"
+  },
+  {
+    "text": "Fare rules specify refund and change conditions, vary by fare type (e.g. Lite, Value, Standard, Flexi).",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Fare details are available at booking.",
+    "label": "Fare Check"
+  },
+  {
+    "text": "Flight status updates available online via SingaporeAir website or app.",
+    "label": "Flight Status"
+  },
+  {
+    "text": "Comprehensive flight info, schedule changes, and cancellations are handled per policy on official site.",
+    "label": "Flights Info"
+  },
+  {
+    "text": "Travel insurance recommendations provided to cover cancellations and lost baggage.",
+    "label": "Insurance"
+  },
+  {
+    "text": "Some credit cards offer automatic travel insurance.",
+    "label": "Insurance"
+  },
+  {
+    "text": "Flight changes or cancellations possible for medical emergencies with supporting documents.",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Priority assistance for last-minute changes due to medical reasons.",
+    "label": "Medical Policy"
+  },
+  {
+    "text": "Report missing bags online or at airport Lost & Found within 7 days.",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Reference number provided to track claim status.",
+    "label": "Missing Bag"
+  },
+  {
+    "text": "Pet travel policies exist but details vary; generally require advance notice and compliance with regulations.",
+    "label": "Pet Travel"
+  },
+  {
+    "text": "Standard airline prohibitions apply on dangerous goods, sharp objects, flammable materials, etc.",
+    "label": "Prohibited Items FAQ"
+  },
+  {
+    "text": "Seat selection and availability depend on fare type and booking class.",
+    "label": "Seat Availability"
+  },
+  {
+    "text": "Transport of sports and music equipment allowed with advance notice; may incur extra fees.",
+    "label": "Sports Music Gear"
+  }
+]
