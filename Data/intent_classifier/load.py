@@ -1,12 +1,21 @@
-# load_faiss_and_query.py
-
+from flask import Flask, request, jsonify
 import faiss
 import numpy as np
 import pickle
 from collections import Counter
 from sentence_transformers import SentenceTransformer
 
-# Load saved FAISS index
+# Start a public tunnel to your local Flask port
+
+
+# -------------------------
+# Setup
+# -------------------------
+app = Flask(__name__)
+
+print("🔹 Loading FAISS index and model...")
+
+# Load FAISS index
 index = faiss.read_index("faiss_index.bin")
 
 # Load texts and labels
@@ -15,10 +24,15 @@ with open("texts_labels.pkl", "rb") as f:
 texts = data["texts"]
 labels = data["labels"]
 
-# Load model
+# Load embedding model
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
-# Intent classification function
+print("✅ Model and index loaded successfully!")
+
+
+# -------------------------
+# Intent Classification Logic
+# -------------------------
 def classify_intent(query, k=5, threshold=0.5):
     query_vec = model.encode([query], convert_to_numpy=True)
     query_vec = query_vec / np.linalg.norm(query_vec, axis=1, keepdims=True)
@@ -35,9 +49,28 @@ def classify_intent(query, k=5, threshold=0.5):
 
     return {"intent": most_common_label, "confidence": round(confidence, 3)}
 
-# Example usage
+
+# -------------------------
+# API Routes
+# -------------------------
+
+@app.route("/classify", methods=["POST"])
+def classify():
+    try:
+        data = request.get_json()
+        query = data.get("query", "").strip()
+        if not query:
+            return jsonify({"error": "Missing 'query' field"}), 400
+
+        result = classify_intent(query)
+        return jsonify(result)
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# -------------------------
+# Run Server
+# -------------------------
 if __name__ == "__main__":
-    query = input("Enter your query: ")
-    result = classify_intent(query)
-    print(f"\nPredicted Intent: {result['intent']}")
-    print(f"Confidence: {result['confidence']}")
+    app.run(host="0.0.0.0", port=5000)
