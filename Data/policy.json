@@ -1,0 +1,82 @@
+{
+  "Cancel Trip": [
+    "Tickets purchased directly from Singapore Airlines can be canceled online.",
+    "Refunds depend on fare type (refundable fares get full/partial refund; non-refundable only taxes refunded).",
+    "Tickets for flights to/from USA can be canceled penalty-free within 24 hours if booked 7 days prior.",
+    "Cancellation fees and deadlines apply as per fare terms."
+  ],
+  "Cancellation Policy": [
+    "Fare types like Lite do not allow cancellations (only taxes refunded).",
+    "Other fares are cancellable with fees.",
+    "Full refunds are given if SIA cancels the flight or significant schedule changes occur.",
+    "Travel insurance may cover other reasons for cancellation."
+  ],
+  "Carry On Luggage FAQ": [
+    "Economy/Premium Economy: 1 carry-on bag, max 7 kg, dimensions up to 115 cm total (L+W+H).",
+    "Business/First/Suites: 2 carry-on bags, combined max weight 14 kg, each up to 115 cm total dimensions.",
+    "One personal item allowed separately (e.g. handbag, laptop)."
+  ],
+  "Change Flight": [
+    "Flight changes allowed subject to fare conditions and fees.",
+    "Flexibility varies by fare type and route.",
+    "Refunds may be partially available depending on fare rules."
+  ],
+  "Check In Luggage FAQ": [
+    "Baggage allowance depends on class and destination:",
+    "Suites/First: 50 kg total check-in baggage.",
+    "Business: 40 kg.",
+    "Premium Economy: 35 kg.",
+    "Economy Flexi/Standard/Lite: 35/30/30 kg respectively.",
+    "Max bag dimension sum 158 cm.",
+    "Extra charges apply above allowance."
+  ],
+  "Complaints": [
+    "Complaints can be made online or via hotline for issues like delays, cancellations, baggage mishandling.",
+    "Compensation possible for eligible claims under route-specific regulations.",
+    "Keep all documentation for complaint processing."
+  ],
+  "Damaged Bag": [
+    "Report damage immediately at airport or within 7 days online if last flight operated by SIA.",
+    "Liability limited by Conditions of Carriage and international conventions.",
+    "No liability for normal wear and tear."
+  ],
+  "Discounts": [
+    "Limited promotions such as tax-free prices or KrisFlyer mile discounts apply periodically.",
+    "Promo codes usually apply only on SIA website with conditions."
+  ],
+  "Fare Check": [
+    "Fare rules specify refund and change conditions, vary by fare type (e.g. Lite, Value, Standard, Flexi).",
+    "Fare details are available at booking."
+  ],
+  "Flight Status": [
+    "Flight status updates available online via SingaporeAir website or app."
+  ],
+  "Flights Info": [
+    "Comprehensive flight info, schedule changes, and cancellations are handled per policy on official site."
+  ],
+  "Insurance": [
+    "Travel insurance recommendations provided to cover cancellations and lost baggage.",
+    "Some credit cards offer automatic travel insurance."
+  ],
+  "Medical Policy": [
+    "Flight changes or cancellations possible for medical emergencies with supporting documents.",
+    "Priority assistance for last-minute changes due to medical reasons."
+  ],
+  "Missing Bag": [
+    "Report missing bags online or at airport Lost & Found within 7 days.",
+    "Reference number provided to track claim status."
+  ],
+  "Pet Travel": [
+    "Pet travel policies exist but details vary; generally require advance notice and compliance with regulations."
+  ],
+  "Prohibited Items FAQ": [
+    "Standard airline prohibitions apply on dangerous goods, sharp objects, flammable materials, etc."
+  ],
+  "Seat Availability": [
+    "Seat selection and availability depend on fare type and booking class."
+  ],
+  "Sports Music Gear": [
+    "Transport of sports and music equipment allowed with advance notice; may incur extra fees."
+  ]
+}
+
