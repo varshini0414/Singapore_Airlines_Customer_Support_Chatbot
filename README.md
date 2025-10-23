@@ -7,6 +7,7 @@ Production-oriented customer support chatbot for an airline. Uses a PEFT-fine-tu
 ![Architecture](architecture.png)
 
 
+APPLICATION LINK : https://v0-singapore-airlines-assistant.vercel.app/
 
 ## Features
 
