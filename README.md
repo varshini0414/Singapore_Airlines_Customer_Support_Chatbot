@@ -23,10 +23,12 @@ APPLICATION LINK : https://v0-singapore-airlines-assistant.vercel.app/
 
 ```
 .
+
 ├─ Data/
 ├─ Database/
 ├─ Scripts/
 ├─ airline-chatbot/
+├─ intent_classifier/
 ├─ architecture.png
 ├─ documentation.pdf
 └─ README.md
