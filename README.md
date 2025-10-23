@@ -8,6 +8,7 @@ Production-oriented customer support chatbot for an airline. Uses a PEFT-fine-tu
 
 
 APPLICATION LINK : https://v0-singapore-airlines-assistant.vercel.app/
+6-digit booking reference:[XLX97Q,T6D6P0,ZZZ0MQ,YDH3UZ]
 
 ## Features
 
