@@ -35,5 +35,3 @@ faiss.write_index(index, "faiss_index.bin")
 # Save texts and labels
 with open("texts_labels.pkl", "wb") as f:
     pickle.dump({"texts": texts, "labels": labels}, f)
-
-print(f"✅ FAISS index built and saved successfully with {len(texts)} entries.")
